@@ -29,6 +29,7 @@ def register(name, username, blood, age, password):
     con.execute("INSERT INTO USERS (NAME,USERNAME,AGE,BLOOD,PASSWORD) \
           VALUES (?,?,?,?,?)", (name, username, age, blood, password))
     con.commit()
+    return 1
 
 
 def login(username, password):
@@ -52,6 +53,7 @@ def add_task(title, category, desc, is_complete, uid):
     con.execute("INSERT INTO TASKS (TITLE,CATEGORY,DESC,IS_COMPLETE,USERID) VALUES (?,?,?,?,?)",
                 (title, category, desc, is_complete,uid))
     con.commit()
+    return 1
 
 
 def get_all_task(uid):
