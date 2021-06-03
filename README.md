@@ -7,14 +7,22 @@ This app has a lot benefits because it helps to stay organized, permits us to pr
 
 **Features**
 •	User can register their own account in this app.
+
 •	User can login their login their personal account.
+
 •	Dashboard that shows all the task related to that user.
+
 •	User can add a new task.
+
 •	User can update existing task.
+
 •	User can delete task if needed
 
 **Libraries Used**
 • Tkinter
+
 • SQLITE3
+
 • Python Image Library (PIL)
+
 • datetime
